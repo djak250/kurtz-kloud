@@ -1,25 +1,10 @@
 {
-  "name": "kurtz-kloud",
-  "version": "0.1.0",
-  "description": "Poor man's CloudApp. Upload to your own S3 bucket.",
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:ltk/kurtz-kloud.git"
-  },
-  "author": {
-    "name": "Lawson Kurtz"
-  },
-  "license": "MIT",
   "dependencies": {
     "aws-sdk": "~2.0.0-rc13",
-    "node-notifier": "git+ssh://git@github.com:ltk/node-notifier.git#e669a673d9af4d709a568ee67a94464d8e8a4231",
-    "mime": "~1.2.0"
+    "chokidar": "^1.5.0",
+    "mime": "~1.2.0",
+    "node-notifier": "~4.5"
   },
-  "readmeFilename": "README.md",
-  "bugs": {
-    "url": "https://github.com/ltk/kurtz-kloud/issues"
-  },
-  "homepage": "https://github.com/ltk/kurtzkloud",
   "scripts": {
     "start": "node ."
   }
